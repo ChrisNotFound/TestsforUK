@@ -1,12 +1,13 @@
 version: 1.0.{build}
 configuration: Debug
 platform: x64
+image: Visual Studio 2017
 build:
-  project: УПКО.sln
+  project: UKPO_White/UKPO_White.sln
   publish_nuget: true
   include_nuget_references: true
   verbosity: minimal
 test:
   assemblies:
     only:
-    - УПКО Инга/test.cpp
+    - UKPO_White/testswhite/bin/Debug/testswhite.dll

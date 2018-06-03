@@ -2,7 +2,7 @@ version: 1.0.{build}
 configuration: Debug
 platform: x64
 build:
-  project: UKPO_White.sln
+  project: UKPO_White/UKPO_White.sln
   publish_nuget: true
   include_nuget_references: true
   verbosity: minimal

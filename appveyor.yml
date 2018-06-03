@@ -1,6 +1,7 @@
 version: 1.0.{build}
 configuration: Debug
 platform: x64
+image: Visual Studio 2017
 build:
   project: UKPO_White/UKPO_White.sln
   publish_nuget: true

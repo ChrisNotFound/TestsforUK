@@ -66,40 +66,8 @@ namespace testswhite
             Assert.AreEqual("00000000000010011", leb.Text);
             window.Close();
         }
-        [TestMethod]
-        public void TestMethodFindError()
-        {
-            var tbX1 = window.Get<TextBox>(SearchCriteria.ByAutomationId("textBox1"));
-            var tbY1 = window.Get<TextBox>(SearchCriteria.ByAutomationId("textBox2"));
-            var tbX2 = window.Get<TextBox>(SearchCriteria.ByAutomationId("textBox3"));
-            var tbY2 = window.Get<TextBox>(SearchCriteria.ByAutomationId("textBox4"));
-            tbX1.Text = "7";
-            tbY1.Text = "7";
-            tbX2.Text = "7";
-            tbY2.Text = "7";
-            var butt = window.Get<Button>(SearchCriteria.ByAutomationId("button2"));
-            butt.Click();
-            var leb = window.Get<Label>(SearchCriteria.ByAutomationId("label6"));
-            Assert.AreEqual("найденный путь пуст!", leb.Text);
-            window.Close();
-        }
-        [TestMethod]
-        public void TestMethodFindErrorRoute()
-        {
-            var tbX1 = window.Get<TextBox>(SearchCriteria.ByAutomationId("textBox1"));
-            var tbY1 = window.Get<TextBox>(SearchCriteria.ByAutomationId("textBox2"));
-            var tbX2 = window.Get<TextBox>(SearchCriteria.ByAutomationId("textBox3"));
-            var tbY2 = window.Get<TextBox>(SearchCriteria.ByAutomationId("textBox4"));
-            tbX1.Text = "-2";
-            tbY1.Text = "-213";
-            tbX2.Text = "-2939";
-            tbY2.Text = "0232";
-            var butt = window.Get<Button>(SearchCriteria.ByAutomationId("button2"));
-            butt.Click();
-            var leb = window.Get<Label>(SearchCriteria.ByAutomationId("label6"));
-            Assert.AreEqual("невозможно найти путь, проверьте входные данные!", leb.Text);
-            window.Close();
-        }
+        
+
         [TestMethod]
         public void TestMethodEnterChar()
         {

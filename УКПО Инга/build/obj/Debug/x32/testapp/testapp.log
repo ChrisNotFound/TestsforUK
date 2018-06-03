@@ -1,7 +1,0 @@
-﻿  test.cpp
-d:\ингины документы\downloads\testsforuk\укпо инга\libapp\istar.h(236): warning C4018: '<': signed/unsigned mismatch
-d:\ингины документы\downloads\testsforuk\укпо инга\testapp\test.cpp(22): warning C4146: unary minus operator applied to unsigned type, result still unsigned
-  main.cpp
-  Generating Code...
-  testapp.vcxproj -> D:\Ингины документы\Downloads\TestsforUK\УКПО Инга\build\lib\Debug\x32\testapp.exe
-  testapp.vcxproj -> D:\Ингины документы\Downloads\TestsforUK\УКПО Инга\build\lib\Debug\x32\testapp.pdb (Full PDB)

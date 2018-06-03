@@ -1,4 +1,3 @@
 ﻿  MyForm.cpp
-c:\users\инга\documents\visual studio 2017\projects\ukpo_white\ukpo_white\IStar.h(226): warning C4018: <: несоответствие типов со знаком и без знака
-  .NETFramework,Version=v4.5.2.AssemblyAttributes.cpp
-  UKPO_White.vcxproj -> C:\Users\Инга\Documents\Visual Studio 2017\Projects\UKPO_White\Debug\UKPO_White.exe
+c:\users\инга\downloads\! 6 семестр\testsforuk\ukpo_white\ukpo_white\IStar.h(226): warning C4018: <: несоответствие типов со знаком и без знака
+  UKPO_White.vcxproj -> C:\Users\Инга\Downloads\! 6 семестр\TestsforUK\UKPO_White\Debug\UKPO_White.exe

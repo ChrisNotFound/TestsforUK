@@ -27,7 +27,7 @@ namespace testswhite
         [TestInitialize]
         public void InitializeApplication()
         {
-            app = Application.Launch("C:\\Users\\Инга\\Documents\\Visual Studio 2017\\Projects\\UKPO_White\\Debug\\UKPO_White.exe");
+            app = Application.Launch("..\\..\\..\\Debug\\UKPO_White.exe");
             window = app.GetWindow("Поиск минимального пути в графе");
         }
 

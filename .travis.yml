@@ -2,11 +2,11 @@ version: 1.0.{build}
 configuration: Debug
 platform: x64
 build:
-  project: ”œ Œ.sln
+  project: √ì√è√ä√é.sln
   publish_nuget: true
   include_nuget_references: true
   verbosity: minimal
 test:
   assemblies:
     only:
-    - ” œŒ »Ì„‡/test.cpp
+    - √ì√ä√è√é √à√≠√£√†/test.cpp
